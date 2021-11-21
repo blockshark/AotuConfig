@@ -1,4 +1,4 @@
-
+library auto_config;
 import 'dart:async';
 import 'package:auto_config/android.dart' as android;
 import 'package:auto_config/constants.dart' as constants;
