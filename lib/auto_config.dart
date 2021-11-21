@@ -34,7 +34,7 @@ Map<String, dynamic> loadConfigFile() {
   final Map yamlMap = loadYaml(yamlString);
 
   if (yamlMap == null || !(yamlMap[constants.yamlKey] is Map)) {
-    throw new Exception('flutter_launcher_name was not found');
+    throw new Exception('auto_config was not found');
   }
 
   // yamlMap has the type YamlMap, which has several unwanted sideeffects

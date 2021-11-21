@@ -1,4 +1,4 @@
-import 'package:flutter_launcher_name/flutter_launcher_name.dart'
+import 'package:auto_config/auto_config.dart'
     as FlutterName;
 
 main(List<String> arguments) {
